@@ -1,0 +1,24 @@
+{
+    "name": "olivemediapackage/demopackage",
+    "description": "Demo package for olivemedia.",
+    "keywords": ["Demo package", "laravel demo package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basu Regami",
+            "email": "basuregami@gmail.com"
+        }
+    ],
+    "require": {
+         "Illuminate/support": "~5"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "olivemediapackage\\demopackage\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    }
+}
